@@ -1,6 +1,6 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Sep 16 16:37:42 UTC 2022","Fri Sep 16 16:37:46 UTC 2022","3972","chromium","","Signing in","","","Sign In with valid credentials",""
 "passed","Fri Sep 16 16:37:55 UTC 2022","Fri Sep 16 16:37:57 UTC 2022","1744","chromium","","Signing in","","","Sign in with empty login and password",""
 "passed","Fri Sep 16 16:37:54 UTC 2022","Fri Sep 16 16:37:55 UTC 2022","1672","chromium","","Signing in","","","Sign in with empty password",""
 "passed","Fri Sep 16 16:37:51 UTC 2022","Fri Sep 16 16:37:54 UTC 2022","2562","chromium","","Signing in","","","Sign in with empty login",""
+"passed","Fri Sep 16 16:37:42 UTC 2022","Fri Sep 16 16:37:46 UTC 2022","3972","chromium","","Signing in","","","Sign In with valid credentials",""
 "passed","Fri Sep 16 16:37:46 UTC 2022","Fri Sep 16 16:37:51 UTC 2022","4682","chromium","","Signing in","","","Sign in with invalid login and password",""
