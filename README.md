@@ -1,1 +1,0 @@
-# vvoldi-LuxeQuality_Redmine
