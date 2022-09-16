@@ -17,7 +17,7 @@ jobs:
       - name: install playwright
         run: npx playwright install
       - name: run test
-        run: npm run test:headless # Our name of the headless script
+        run: npm run test # Our name of the headless script
       # - name: Copy History
       #   if: always()
       #   run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history
