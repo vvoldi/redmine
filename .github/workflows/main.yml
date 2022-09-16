@@ -15,7 +15,7 @@ jobs:
       - run: npm ci
       # - run: npm config set script-shell "G:\Git\bin\bash.exe"
       - name: install playwright
-        run: npx playwright test
+        run: npx playwright install
       - name: run test
         run: npm run test # Our name of the headless script
       # - name: Copy History
