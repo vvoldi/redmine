@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: '16.14.0' # In command line run “node -v” and choose your version
       - run: npm ci
-      - run: npm config set script-shell "G:\Git\bin\bash.exe"
+      # - run: npm config set script-shell "G:\Git\bin\bash.exe"
       - name: run test
         run: npm run test # Our name of the headless script
       - name: Copy History
