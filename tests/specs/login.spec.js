@@ -1,6 +1,7 @@
 import { test } from "@playwright/test";
 import { userProfile } from "../../consts/userProfile";
 import { LoginPage } from "../pages/Login.page";
+import {} from "../../"
 
 test.describe("Signing in", () => {
     test("Sign In with valid credentials", async ({ page }) => {
