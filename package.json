@@ -2,7 +2,7 @@
   "name": "redmine",
   "version": "1.0.0",
   "description": "redmine testing enviroment",
-  "main": "index.js",
+  "main": "login.spec.js",
   "scripts": {
       "test": "npx playwright test",
       "posttest": "npm run allure:generate",
