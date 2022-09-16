@@ -1,0 +1,20 @@
+{
+  "name": "redmine",
+  "version": "1.0.0",
+  "description": "redmine testing enviroment",
+  "main": "index.js",
+  "scripts": {
+      "test": "npx playwright test",
+      "posttest": "npm run allure:generate",
+      "allure:generate": "npx allure generate ./allure-results --clean",
+      "allure:open": "npx allure open ./allure-report",
+      "allure:serve": "npx allure serve"
+  },
+  "author": "vvoldi",
+  "license": "ISC",
+  "devDependencies": {
+      "@playwright/test": "^1.25.2",
+      "allure-playwright": "^2.0.0-beta.19",
+      "allure-commandline": "2.18.1"
+  }
+}
