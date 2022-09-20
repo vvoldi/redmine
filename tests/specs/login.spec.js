@@ -1,5 +1,5 @@
 import { test } from "@playwright/test";
-import { userProfile } from "../../consts/userProfile";
+import userProfile from "../../consts/userProfile.json";
 import { LoginPage } from "../pages/Login.page";
 
 test.describe("Signing in", () => {
